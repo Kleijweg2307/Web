@@ -1,0 +1,138 @@
+body{
+  background-color: whitesmoke;
+}
+
+.navbar{
+  margin-bottom:0px !important;
+}
+
+.jumbotron{
+  background-image: url(../images/cover.jpg);
+  background-position:center;
+  background-size: cover;
+  padding-top:15%;
+  background-repeat:no-repeat;
+  margin-bottom:0px !important;
+}
+
+h1{
+  font-family:'Alegreya Sans SC', sans-serif;
+  color:white !important;
+  font-size:140%;
+  font-weight:bold;
+  text-align:center;
+  vertical-align:middle;
+}
+
+hr{
+  border-color:#D3D3D3;
+}
+
+#imgWrapper{
+  position:relative !important;
+  width:100%;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.center {
+    transition: .5s ease;
+    opacity:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+#profilePicture{
+  display:block;
+  margin:auto;
+  width:40%;
+  margin-top:2%;
+}
+
+#imgWrapper:hover .img-responsive {
+  opacity:0.3;
+}
+
+#imgWrapper:hover .center {
+  opacity: 1;
+}
+
+.center a{
+  display:block;
+  margin:auto;
+  color:white;
+  font-size:200%;
+  text-align:center;
+}
+
+
+#mainWrapper{
+  background-color:whitesmoke;
+  max-width:80%;
+}
+
+h2{
+   font-family:'Alegreya Sans SC', sans-serif;
+}
+
+h2{
+  text-align:center;
+  padding-top:5%;
+}
+
+hr{
+  margin-left:10%;
+  margin-right:10%;
+}
+
+p{
+  padding-left:7%;
+  padding-right:7%;
+  font-size:120%;
+}
+
+#profile{
+  width:60%;
+}
+
+h3{
+  text-align:center;
+  font-family:'Alegreya Sans SC', sans-serif;
+  margin:3%;
+}
+
+.img-portfolio{
+  margin-top:5%;
+  margin-bottom:5%;
+}
+
+p a{
+  color:#333;
+  text-decoration:underline;
+  text-decoration-color: limegreen;
+}
+
+a:hover{
+  color:limegreen;
+}
+
+.footer{
+  text-align:center;
+  font-family:'Alegreya Sans SC', sans-serif;
+  color:white;
+  margin-bottom:5%;
+}
+
+.footer a{
+  color:black;
+  font-size:200%;
+  margin:3%
+}
+
+.contact{
+  margin-bottom:5%;
+}
